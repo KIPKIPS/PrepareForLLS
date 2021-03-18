@@ -10,8 +10,13 @@ namespace ShellSort {
         }
 
         public static void ShellSort(int[] array) {
+            int h = 1;
+            while (h <= array.Length / 3) {
+                h = h * 3 + 1;
+            }
             //先按照间隔进行排序
-            for (int gap = 4; gap > 0; gap /= 2) {
+            //for (int gap = array.Length / 2; gap > 0; gap /= 2) { //二分法序列,每次除以2,最佳序列Knuth序列 h = 1,h = 3 * h + 1
+            for (int gap = h; gap > 0; gap = (gap - 1) / 3) {//Knuth序列
                 //Console.WriteLine(gap);
                 for (int i = gap; i < array.Length; i++) { //i从1开始,默认第一个元素是有序的,以第一个元素为基准进行比较插入
                     for (int j = i; j > gap - 1; j -= gap) {
