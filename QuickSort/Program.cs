@@ -4,16 +4,38 @@ namespace QuickSort {
     class Program {
         static void Main(string[] args) {
             int[] array = { 1, 8, 2, 56, 51, 5, 35 };
-            QuickSort(array);
-            for (int i = 0; i < array.Length; i++) {
-                Console.Write(array[i] + " ");
-            }
+            // QuickSort(array);
+            // for (int i = 0; i < array.Length; i++) {
+            //     Console.Write(array[i] + " ");
+            // }
+
+            int topK = QuickSelect(array, 2);
+            Console.WriteLine(topK);
             Console.ReadLine();
 
         }
 
         static void QuickSort(int[] array) {
             Quick(array, 0, array.Length - 1);
+        }
+        static int QuickSelect(int[] array, int k) {
+            return Quick(array, 0, array.Length - 1, array.Length - k);
+        }
+
+        static int Quick(int[] array, int left, int right, int k) {
+            int index;
+            if (left < right) {
+                //划分数组
+                index = Partition(array, left, right);
+                if (index == k) {
+                    return array[k];
+                } else if (left < index - 1) {
+                    return Quick(array, left, index - 1, k);
+                } else {
+                    return Quick(array, index, right, k);
+                }
+            }
+            return array[left];
         }
 
         //快排划分步骤

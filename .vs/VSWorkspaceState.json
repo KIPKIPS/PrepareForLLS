@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\QuickSort"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\QuickSort\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

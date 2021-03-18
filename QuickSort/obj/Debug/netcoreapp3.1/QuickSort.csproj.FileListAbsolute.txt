@@ -1,0 +1,13 @@
+D:\Unity_Workstation\PrepareForLLS\QuickSort\bin\Debug\netcoreapp3.1\QuickSort.exe
+D:\Unity_Workstation\PrepareForLLS\QuickSort\bin\Debug\netcoreapp3.1\QuickSort.deps.json
+D:\Unity_Workstation\PrepareForLLS\QuickSort\bin\Debug\netcoreapp3.1\QuickSort.runtimeconfig.json
+D:\Unity_Workstation\PrepareForLLS\QuickSort\bin\Debug\netcoreapp3.1\QuickSort.runtimeconfig.dev.json
+D:\Unity_Workstation\PrepareForLLS\QuickSort\bin\Debug\netcoreapp3.1\QuickSort.dll
+D:\Unity_Workstation\PrepareForLLS\QuickSort\bin\Debug\netcoreapp3.1\QuickSort.pdb
+D:\Unity_Workstation\PrepareForLLS\QuickSort\obj\Debug\netcoreapp3.1\QuickSort.csprojAssemblyReference.cache
+D:\Unity_Workstation\PrepareForLLS\QuickSort\obj\Debug\netcoreapp3.1\QuickSort.AssemblyInfoInputs.cache
+D:\Unity_Workstation\PrepareForLLS\QuickSort\obj\Debug\netcoreapp3.1\QuickSort.AssemblyInfo.cs
+D:\Unity_Workstation\PrepareForLLS\QuickSort\obj\Debug\netcoreapp3.1\QuickSort.csproj.CoreCompileInputs.cache
+D:\Unity_Workstation\PrepareForLLS\QuickSort\obj\Debug\netcoreapp3.1\QuickSort.dll
+D:\Unity_Workstation\PrepareForLLS\QuickSort\obj\Debug\netcoreapp3.1\QuickSort.pdb
+D:\Unity_Workstation\PrepareForLLS\QuickSort\obj\Debug\netcoreapp3.1\QuickSort.genruntimeconfig.cache
