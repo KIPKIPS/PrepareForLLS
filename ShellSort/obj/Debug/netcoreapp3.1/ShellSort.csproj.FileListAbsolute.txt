@@ -1,0 +1,13 @@
+D:\Code\C#\PrepareForLLS\ShellSort\bin\Debug\netcoreapp3.1\ShellSort.exe
+D:\Code\C#\PrepareForLLS\ShellSort\bin\Debug\netcoreapp3.1\ShellSort.deps.json
+D:\Code\C#\PrepareForLLS\ShellSort\bin\Debug\netcoreapp3.1\ShellSort.runtimeconfig.json
+D:\Code\C#\PrepareForLLS\ShellSort\bin\Debug\netcoreapp3.1\ShellSort.runtimeconfig.dev.json
+D:\Code\C#\PrepareForLLS\ShellSort\bin\Debug\netcoreapp3.1\ShellSort.dll
+D:\Code\C#\PrepareForLLS\ShellSort\bin\Debug\netcoreapp3.1\ShellSort.pdb
+D:\Code\C#\PrepareForLLS\ShellSort\obj\Debug\netcoreapp3.1\ShellSort.csprojAssemblyReference.cache
+D:\Code\C#\PrepareForLLS\ShellSort\obj\Debug\netcoreapp3.1\ShellSort.AssemblyInfoInputs.cache
+D:\Code\C#\PrepareForLLS\ShellSort\obj\Debug\netcoreapp3.1\ShellSort.AssemblyInfo.cs
+D:\Code\C#\PrepareForLLS\ShellSort\obj\Debug\netcoreapp3.1\ShellSort.csproj.CoreCompileInputs.cache
+D:\Code\C#\PrepareForLLS\ShellSort\obj\Debug\netcoreapp3.1\ShellSort.dll
+D:\Code\C#\PrepareForLLS\ShellSort\obj\Debug\netcoreapp3.1\ShellSort.pdb
+D:\Code\C#\PrepareForLLS\ShellSort\obj\Debug\netcoreapp3.1\ShellSort.genruntimeconfig.cache
