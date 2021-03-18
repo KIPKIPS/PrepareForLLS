@@ -4,18 +4,20 @@ namespace ShellSort {
     class Program {
         static void Main(string[] args) {
             int[] array = { 6, 3, 1, 4, 2, 9, 7, 11, 8, 5 };
-            InsertionSort(array);
+            ShellSort(array);
             PrintArray(array);
             Console.ReadLine();
         }
 
         public static void ShellSort(int[] array) {
             //先按照间隔进行排序
-            int gap = 4;
-            for (int i = gap; i < array.Length; i++) { //i从1开始,默认第一个元素是有序的,以第一个元素为基准进行比较插入
-                for (int j = i; j > gap - 1; j -= gap) {
-                    if (array[j] < array[j - gap]) {
-                        Swap(array, j, j - gap);
+            for (int gap = 4; gap > 0; gap /= 2) {
+                //Console.WriteLine(gap);
+                for (int i = gap; i < array.Length; i++) { //i从1开始,默认第一个元素是有序的,以第一个元素为基准进行比较插入
+                    for (int j = i; j > gap - 1; j -= gap) {
+                        if (array[j] < array[j - gap]) {
+                            Swap(array, j, j - gap);
+                        }
                     }
                 }
             }
