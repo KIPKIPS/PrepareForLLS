@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\QuickSort"
+    "\\ShellSort"
   ],
-  "SelectedNode": "\\QuickSort\\Program.cs",
+  "SelectedNode": "\\ShellSort\\ShellSort.csproj",
   "PreviewInSolutionExplorer": false
 }
