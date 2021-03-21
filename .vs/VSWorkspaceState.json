@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ShellSort"
+    "\\MergeSort"
   ],
-  "SelectedNode": "\\ShellSort\\ShellSort.csproj",
+  "SelectedNode": "\\MergeSort\\MergeSort.sln",
   "PreviewInSolutionExplorer": false
 }

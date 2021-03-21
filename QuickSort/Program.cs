@@ -15,9 +15,7 @@ namespace QuickSort {
 
         }
 
-        static void QuickSort(int[] array) {
-            Quick(array, 0, array.Length - 1);
-        }
+        //快选实现
         static int QuickSelect(int[] array, int k) {
             return Quick(array, 0, array.Length - 1, array.Length - k);
         }
@@ -36,6 +34,11 @@ namespace QuickSort {
                 }
             }
             return array[left];
+        }
+
+        //快排实现
+        static void QuickSort(int[] array) {
+            Quick(array, 0, array.Length - 1);
         }
 
         //快排划分步骤
