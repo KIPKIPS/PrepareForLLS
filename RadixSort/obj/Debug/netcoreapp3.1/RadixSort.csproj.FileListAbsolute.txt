@@ -1,0 +1,13 @@
+D:\Code\C#\PrepareForLLS\RadixSort\bin\Debug\netcoreapp3.1\RadixSort.exe
+D:\Code\C#\PrepareForLLS\RadixSort\bin\Debug\netcoreapp3.1\RadixSort.deps.json
+D:\Code\C#\PrepareForLLS\RadixSort\bin\Debug\netcoreapp3.1\RadixSort.runtimeconfig.json
+D:\Code\C#\PrepareForLLS\RadixSort\bin\Debug\netcoreapp3.1\RadixSort.runtimeconfig.dev.json
+D:\Code\C#\PrepareForLLS\RadixSort\bin\Debug\netcoreapp3.1\RadixSort.dll
+D:\Code\C#\PrepareForLLS\RadixSort\bin\Debug\netcoreapp3.1\RadixSort.pdb
+D:\Code\C#\PrepareForLLS\RadixSort\obj\Debug\netcoreapp3.1\RadixSort.csprojAssemblyReference.cache
+D:\Code\C#\PrepareForLLS\RadixSort\obj\Debug\netcoreapp3.1\RadixSort.AssemblyInfoInputs.cache
+D:\Code\C#\PrepareForLLS\RadixSort\obj\Debug\netcoreapp3.1\RadixSort.AssemblyInfo.cs
+D:\Code\C#\PrepareForLLS\RadixSort\obj\Debug\netcoreapp3.1\RadixSort.csproj.CoreCompileInputs.cache
+D:\Code\C#\PrepareForLLS\RadixSort\obj\Debug\netcoreapp3.1\RadixSort.dll
+D:\Code\C#\PrepareForLLS\RadixSort\obj\Debug\netcoreapp3.1\RadixSort.pdb
+D:\Code\C#\PrepareForLLS\RadixSort\obj\Debug\netcoreapp3.1\RadixSort.genruntimeconfig.cache
