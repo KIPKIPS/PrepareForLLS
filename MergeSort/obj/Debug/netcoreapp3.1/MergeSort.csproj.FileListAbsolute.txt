@@ -1,0 +1,13 @@
+D:\Code\C#\PrepareForLLS\MergeSort\bin\Debug\netcoreapp3.1\MergeSort.exe
+D:\Code\C#\PrepareForLLS\MergeSort\bin\Debug\netcoreapp3.1\MergeSort.deps.json
+D:\Code\C#\PrepareForLLS\MergeSort\bin\Debug\netcoreapp3.1\MergeSort.runtimeconfig.json
+D:\Code\C#\PrepareForLLS\MergeSort\bin\Debug\netcoreapp3.1\MergeSort.runtimeconfig.dev.json
+D:\Code\C#\PrepareForLLS\MergeSort\bin\Debug\netcoreapp3.1\MergeSort.dll
+D:\Code\C#\PrepareForLLS\MergeSort\bin\Debug\netcoreapp3.1\MergeSort.pdb
+D:\Code\C#\PrepareForLLS\MergeSort\obj\Debug\netcoreapp3.1\MergeSort.csprojAssemblyReference.cache
+D:\Code\C#\PrepareForLLS\MergeSort\obj\Debug\netcoreapp3.1\MergeSort.AssemblyInfoInputs.cache
+D:\Code\C#\PrepareForLLS\MergeSort\obj\Debug\netcoreapp3.1\MergeSort.AssemblyInfo.cs
+D:\Code\C#\PrepareForLLS\MergeSort\obj\Debug\netcoreapp3.1\MergeSort.csproj.CoreCompileInputs.cache
+D:\Code\C#\PrepareForLLS\MergeSort\obj\Debug\netcoreapp3.1\MergeSort.dll
+D:\Code\C#\PrepareForLLS\MergeSort\obj\Debug\netcoreapp3.1\MergeSort.pdb
+D:\Code\C#\PrepareForLLS\MergeSort\obj\Debug\netcoreapp3.1\MergeSort.genruntimeconfig.cache
