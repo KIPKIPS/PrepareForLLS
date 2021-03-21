@@ -1,0 +1,13 @@
+D:\Code\C#\PrepareForLLS\CountingSort\bin\Debug\netcoreapp3.1\CountingSort.exe
+D:\Code\C#\PrepareForLLS\CountingSort\bin\Debug\netcoreapp3.1\CountingSort.deps.json
+D:\Code\C#\PrepareForLLS\CountingSort\bin\Debug\netcoreapp3.1\CountingSort.runtimeconfig.json
+D:\Code\C#\PrepareForLLS\CountingSort\bin\Debug\netcoreapp3.1\CountingSort.runtimeconfig.dev.json
+D:\Code\C#\PrepareForLLS\CountingSort\bin\Debug\netcoreapp3.1\CountingSort.dll
+D:\Code\C#\PrepareForLLS\CountingSort\bin\Debug\netcoreapp3.1\CountingSort.pdb
+D:\Code\C#\PrepareForLLS\CountingSort\obj\Debug\netcoreapp3.1\CountingSort.csprojAssemblyReference.cache
+D:\Code\C#\PrepareForLLS\CountingSort\obj\Debug\netcoreapp3.1\CountingSort.AssemblyInfoInputs.cache
+D:\Code\C#\PrepareForLLS\CountingSort\obj\Debug\netcoreapp3.1\CountingSort.AssemblyInfo.cs
+D:\Code\C#\PrepareForLLS\CountingSort\obj\Debug\netcoreapp3.1\CountingSort.csproj.CoreCompileInputs.cache
+D:\Code\C#\PrepareForLLS\CountingSort\obj\Debug\netcoreapp3.1\CountingSort.dll
+D:\Code\C#\PrepareForLLS\CountingSort\obj\Debug\netcoreapp3.1\CountingSort.pdb
+D:\Code\C#\PrepareForLLS\CountingSort\obj\Debug\netcoreapp3.1\CountingSort.genruntimeconfig.cache
