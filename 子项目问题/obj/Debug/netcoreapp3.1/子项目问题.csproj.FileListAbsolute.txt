@@ -1,0 +1,13 @@
+D:\Code\C#\PrepareForLLS\子项目问题\bin\Debug\netcoreapp3.1\子项目问题.exe
+D:\Code\C#\PrepareForLLS\子项目问题\bin\Debug\netcoreapp3.1\子项目问题.deps.json
+D:\Code\C#\PrepareForLLS\子项目问题\bin\Debug\netcoreapp3.1\子项目问题.runtimeconfig.json
+D:\Code\C#\PrepareForLLS\子项目问题\bin\Debug\netcoreapp3.1\子项目问题.runtimeconfig.dev.json
+D:\Code\C#\PrepareForLLS\子项目问题\bin\Debug\netcoreapp3.1\子项目问题.dll
+D:\Code\C#\PrepareForLLS\子项目问题\bin\Debug\netcoreapp3.1\子项目问题.pdb
+D:\Code\C#\PrepareForLLS\子项目问题\obj\Debug\netcoreapp3.1\子项目问题.csprojAssemblyReference.cache
+D:\Code\C#\PrepareForLLS\子项目问题\obj\Debug\netcoreapp3.1\子项目问题.AssemblyInfoInputs.cache
+D:\Code\C#\PrepareForLLS\子项目问题\obj\Debug\netcoreapp3.1\子项目问题.AssemblyInfo.cs
+D:\Code\C#\PrepareForLLS\子项目问题\obj\Debug\netcoreapp3.1\子项目问题.csproj.CoreCompileInputs.cache
+D:\Code\C#\PrepareForLLS\子项目问题\obj\Debug\netcoreapp3.1\子项目问题.dll
+D:\Code\C#\PrepareForLLS\子项目问题\obj\Debug\netcoreapp3.1\子项目问题.pdb
+D:\Code\C#\PrepareForLLS\子项目问题\obj\Debug\netcoreapp3.1\子项目问题.genruntimeconfig.cache
