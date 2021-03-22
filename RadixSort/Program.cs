@@ -19,17 +19,15 @@ namespace RadixSort {
                     int num = array[j] / division % 10;//求出个十百每一位的数字
                     count[num]++;
                 }
-                for (int k = 1; k < count.Length; k++) {
-                    count[k] = count[k] + count[k - 1];
-                }
+                // for (int k = 1; k < count.Length; k++) {
+                //     count[k] = count[k] + count[k - 1];
+                // }
                 //PrintArray(count);
                 for (int m = array.Length - 1; m >= 0; m--) {
                     int num = array[m] / division % 10;
                     result[--count[num]] = array[m];
                 }
             }
-
-
             return result;
         }
 
