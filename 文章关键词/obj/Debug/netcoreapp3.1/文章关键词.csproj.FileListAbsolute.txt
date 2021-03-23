@@ -1,0 +1,13 @@
+D:\Code\C#\PrepareForLLS\文章关键词\bin\Debug\netcoreapp3.1\文章关键词.exe
+D:\Code\C#\PrepareForLLS\文章关键词\bin\Debug\netcoreapp3.1\文章关键词.deps.json
+D:\Code\C#\PrepareForLLS\文章关键词\bin\Debug\netcoreapp3.1\文章关键词.runtimeconfig.json
+D:\Code\C#\PrepareForLLS\文章关键词\bin\Debug\netcoreapp3.1\文章关键词.runtimeconfig.dev.json
+D:\Code\C#\PrepareForLLS\文章关键词\bin\Debug\netcoreapp3.1\文章关键词.dll
+D:\Code\C#\PrepareForLLS\文章关键词\bin\Debug\netcoreapp3.1\文章关键词.pdb
+D:\Code\C#\PrepareForLLS\文章关键词\obj\Debug\netcoreapp3.1\文章关键词.csprojAssemblyReference.cache
+D:\Code\C#\PrepareForLLS\文章关键词\obj\Debug\netcoreapp3.1\文章关键词.AssemblyInfoInputs.cache
+D:\Code\C#\PrepareForLLS\文章关键词\obj\Debug\netcoreapp3.1\文章关键词.AssemblyInfo.cs
+D:\Code\C#\PrepareForLLS\文章关键词\obj\Debug\netcoreapp3.1\文章关键词.csproj.CoreCompileInputs.cache
+D:\Code\C#\PrepareForLLS\文章关键词\obj\Debug\netcoreapp3.1\文章关键词.dll
+D:\Code\C#\PrepareForLLS\文章关键词\obj\Debug\netcoreapp3.1\文章关键词.pdb
+D:\Code\C#\PrepareForLLS\文章关键词\obj\Debug\netcoreapp3.1\文章关键词.genruntimeconfig.cache
