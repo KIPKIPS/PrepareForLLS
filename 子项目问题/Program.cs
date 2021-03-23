@@ -38,10 +38,10 @@ namespace 子项目问题 {
                         res.Add(kvp.Value[i]);
                     }
 
-                    Console.Write(kvp.Value[i] + " ");
+                    //Console.Write(kvp.Value[i] + " ");
                 }
 
-                Console.WriteLine();
+                //Console.WriteLine();
             }
             Console.WriteLine(res.Count);
             Console.ReadLine();
