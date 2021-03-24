@@ -1,0 +1,13 @@
+D:\Code\C#\PrepareForLLS\会话列表\bin\Debug\netcoreapp3.1\会话列表.exe
+D:\Code\C#\PrepareForLLS\会话列表\bin\Debug\netcoreapp3.1\会话列表.deps.json
+D:\Code\C#\PrepareForLLS\会话列表\bin\Debug\netcoreapp3.1\会话列表.runtimeconfig.json
+D:\Code\C#\PrepareForLLS\会话列表\bin\Debug\netcoreapp3.1\会话列表.runtimeconfig.dev.json
+D:\Code\C#\PrepareForLLS\会话列表\bin\Debug\netcoreapp3.1\会话列表.dll
+D:\Code\C#\PrepareForLLS\会话列表\bin\Debug\netcoreapp3.1\会话列表.pdb
+D:\Code\C#\PrepareForLLS\会话列表\obj\Debug\netcoreapp3.1\会话列表.csprojAssemblyReference.cache
+D:\Code\C#\PrepareForLLS\会话列表\obj\Debug\netcoreapp3.1\会话列表.AssemblyInfoInputs.cache
+D:\Code\C#\PrepareForLLS\会话列表\obj\Debug\netcoreapp3.1\会话列表.AssemblyInfo.cs
+D:\Code\C#\PrepareForLLS\会话列表\obj\Debug\netcoreapp3.1\会话列表.csproj.CoreCompileInputs.cache
+D:\Code\C#\PrepareForLLS\会话列表\obj\Debug\netcoreapp3.1\会话列表.dll
+D:\Code\C#\PrepareForLLS\会话列表\obj\Debug\netcoreapp3.1\会话列表.pdb
+D:\Code\C#\PrepareForLLS\会话列表\obj\Debug\netcoreapp3.1\会话列表.genruntimeconfig.cache
