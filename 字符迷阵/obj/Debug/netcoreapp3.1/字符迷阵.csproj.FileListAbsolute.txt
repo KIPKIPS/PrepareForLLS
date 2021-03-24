@@ -1,0 +1,13 @@
+D:\Code\C#\PrepareForLLS\字符迷阵\bin\Debug\netcoreapp3.1\字符迷阵.exe
+D:\Code\C#\PrepareForLLS\字符迷阵\bin\Debug\netcoreapp3.1\字符迷阵.deps.json
+D:\Code\C#\PrepareForLLS\字符迷阵\bin\Debug\netcoreapp3.1\字符迷阵.runtimeconfig.json
+D:\Code\C#\PrepareForLLS\字符迷阵\bin\Debug\netcoreapp3.1\字符迷阵.runtimeconfig.dev.json
+D:\Code\C#\PrepareForLLS\字符迷阵\bin\Debug\netcoreapp3.1\字符迷阵.dll
+D:\Code\C#\PrepareForLLS\字符迷阵\bin\Debug\netcoreapp3.1\字符迷阵.pdb
+D:\Code\C#\PrepareForLLS\字符迷阵\obj\Debug\netcoreapp3.1\字符迷阵.csprojAssemblyReference.cache
+D:\Code\C#\PrepareForLLS\字符迷阵\obj\Debug\netcoreapp3.1\字符迷阵.AssemblyInfoInputs.cache
+D:\Code\C#\PrepareForLLS\字符迷阵\obj\Debug\netcoreapp3.1\字符迷阵.AssemblyInfo.cs
+D:\Code\C#\PrepareForLLS\字符迷阵\obj\Debug\netcoreapp3.1\字符迷阵.csproj.CoreCompileInputs.cache
+D:\Code\C#\PrepareForLLS\字符迷阵\obj\Debug\netcoreapp3.1\字符迷阵.dll
+D:\Code\C#\PrepareForLLS\字符迷阵\obj\Debug\netcoreapp3.1\字符迷阵.pdb
+D:\Code\C#\PrepareForLLS\字符迷阵\obj\Debug\netcoreapp3.1\字符迷阵.genruntimeconfig.cache
