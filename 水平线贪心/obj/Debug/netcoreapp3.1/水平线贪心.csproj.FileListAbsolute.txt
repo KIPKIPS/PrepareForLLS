@@ -1,0 +1,13 @@
+D:\Code\C#\PrepareForLLS\水平线贪心\bin\Debug\netcoreapp3.1\水平线贪心.exe
+D:\Code\C#\PrepareForLLS\水平线贪心\bin\Debug\netcoreapp3.1\水平线贪心.deps.json
+D:\Code\C#\PrepareForLLS\水平线贪心\bin\Debug\netcoreapp3.1\水平线贪心.runtimeconfig.json
+D:\Code\C#\PrepareForLLS\水平线贪心\bin\Debug\netcoreapp3.1\水平线贪心.runtimeconfig.dev.json
+D:\Code\C#\PrepareForLLS\水平线贪心\bin\Debug\netcoreapp3.1\水平线贪心.dll
+D:\Code\C#\PrepareForLLS\水平线贪心\bin\Debug\netcoreapp3.1\水平线贪心.pdb
+D:\Code\C#\PrepareForLLS\水平线贪心\obj\Debug\netcoreapp3.1\水平线贪心.csprojAssemblyReference.cache
+D:\Code\C#\PrepareForLLS\水平线贪心\obj\Debug\netcoreapp3.1\水平线贪心.AssemblyInfoInputs.cache
+D:\Code\C#\PrepareForLLS\水平线贪心\obj\Debug\netcoreapp3.1\水平线贪心.AssemblyInfo.cs
+D:\Code\C#\PrepareForLLS\水平线贪心\obj\Debug\netcoreapp3.1\水平线贪心.csproj.CoreCompileInputs.cache
+D:\Code\C#\PrepareForLLS\水平线贪心\obj\Debug\netcoreapp3.1\水平线贪心.dll
+D:\Code\C#\PrepareForLLS\水平线贪心\obj\Debug\netcoreapp3.1\水平线贪心.pdb
+D:\Code\C#\PrepareForLLS\水平线贪心\obj\Debug\netcoreapp3.1\水平线贪心.genruntimeconfig.cache
