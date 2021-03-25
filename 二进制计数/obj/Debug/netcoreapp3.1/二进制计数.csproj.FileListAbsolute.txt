@@ -1,0 +1,13 @@
+D:\Code\C#\PrepareForLLS\二进制计数\bin\Debug\netcoreapp3.1\二进制计数.exe
+D:\Code\C#\PrepareForLLS\二进制计数\bin\Debug\netcoreapp3.1\二进制计数.deps.json
+D:\Code\C#\PrepareForLLS\二进制计数\bin\Debug\netcoreapp3.1\二进制计数.runtimeconfig.json
+D:\Code\C#\PrepareForLLS\二进制计数\bin\Debug\netcoreapp3.1\二进制计数.runtimeconfig.dev.json
+D:\Code\C#\PrepareForLLS\二进制计数\bin\Debug\netcoreapp3.1\二进制计数.dll
+D:\Code\C#\PrepareForLLS\二进制计数\bin\Debug\netcoreapp3.1\二进制计数.pdb
+D:\Code\C#\PrepareForLLS\二进制计数\obj\Debug\netcoreapp3.1\二进制计数.csprojAssemblyReference.cache
+D:\Code\C#\PrepareForLLS\二进制计数\obj\Debug\netcoreapp3.1\二进制计数.AssemblyInfoInputs.cache
+D:\Code\C#\PrepareForLLS\二进制计数\obj\Debug\netcoreapp3.1\二进制计数.AssemblyInfo.cs
+D:\Code\C#\PrepareForLLS\二进制计数\obj\Debug\netcoreapp3.1\二进制计数.csproj.CoreCompileInputs.cache
+D:\Code\C#\PrepareForLLS\二进制计数\obj\Debug\netcoreapp3.1\二进制计数.dll
+D:\Code\C#\PrepareForLLS\二进制计数\obj\Debug\netcoreapp3.1\二进制计数.pdb
+D:\Code\C#\PrepareForLLS\二进制计数\obj\Debug\netcoreapp3.1\二进制计数.genruntimeconfig.cache
