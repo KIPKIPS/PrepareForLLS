@@ -11,3 +11,16 @@ D:\Unity_Workstation\PrepareForLLS\两数之和\obj\Debug\netcoreapp3.1\两数�
 D:\Unity_Workstation\PrepareForLLS\两数之和\obj\Debug\netcoreapp3.1\两数之和.dll
 D:\Unity_Workstation\PrepareForLLS\两数之和\obj\Debug\netcoreapp3.1\两数之和.pdb
 D:\Unity_Workstation\PrepareForLLS\两数之和\obj\Debug\netcoreapp3.1\两数之和.genruntimeconfig.cache
+D:\Code\C#\PrepareForLLS\两数之和\bin\Debug\netcoreapp3.1\两数之和.exe
+D:\Code\C#\PrepareForLLS\两数之和\bin\Debug\netcoreapp3.1\两数之和.deps.json
+D:\Code\C#\PrepareForLLS\两数之和\bin\Debug\netcoreapp3.1\两数之和.runtimeconfig.json
+D:\Code\C#\PrepareForLLS\两数之和\bin\Debug\netcoreapp3.1\两数之和.runtimeconfig.dev.json
+D:\Code\C#\PrepareForLLS\两数之和\bin\Debug\netcoreapp3.1\两数之和.dll
+D:\Code\C#\PrepareForLLS\两数之和\bin\Debug\netcoreapp3.1\两数之和.pdb
+D:\Code\C#\PrepareForLLS\两数之和\obj\Debug\netcoreapp3.1\两数之和.csprojAssemblyReference.cache
+D:\Code\C#\PrepareForLLS\两数之和\obj\Debug\netcoreapp3.1\两数之和.AssemblyInfoInputs.cache
+D:\Code\C#\PrepareForLLS\两数之和\obj\Debug\netcoreapp3.1\两数之和.AssemblyInfo.cs
+D:\Code\C#\PrepareForLLS\两数之和\obj\Debug\netcoreapp3.1\两数之和.csproj.CoreCompileInputs.cache
+D:\Code\C#\PrepareForLLS\两数之和\obj\Debug\netcoreapp3.1\两数之和.dll
+D:\Code\C#\PrepareForLLS\两数之和\obj\Debug\netcoreapp3.1\两数之和.pdb
+D:\Code\C#\PrepareForLLS\两数之和\obj\Debug\netcoreapp3.1\两数之和.genruntimeconfig.cache
