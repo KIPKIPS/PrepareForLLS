@@ -23,6 +23,7 @@ namespace 链表相加 {
             while (temp1 != null || temp2 != null || num != 0) {
                 ListNode temp = new ListNode();
                 tempHead.next = temp;
+
                 if (num != 0 && temp1 == null && temp2 == null) {
                     temp.val = num;
                     num = 0;
