@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "两数之和", "两数之和.csproj", "{B04F856E-ABB9-49E0-A7B0-14BB59E63570}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B04F856E-ABB9-49E0-A7B0-14BB59E63570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B04F856E-ABB9-49E0-A7B0-14BB59E63570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B04F856E-ABB9-49E0-A7B0-14BB59E63570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B04F856E-ABB9-49E0-A7B0-14BB59E63570}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C52FE3E-C4AB-4029-B01F-5C458C0C0AAF}
+	EndGlobalSection
+EndGlobal
