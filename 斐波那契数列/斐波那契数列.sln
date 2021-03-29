@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "斐波那契数列", "斐波那契数列.csproj", "{F304CE2A-F42B-4537-8E41-15929A379D3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F304CE2A-F42B-4537-8E41-15929A379D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F304CE2A-F42B-4537-8E41-15929A379D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F304CE2A-F42B-4537-8E41-15929A379D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F304CE2A-F42B-4537-8E41-15929A379D3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30F968FF-C414-4309-A3A1-52080B050278}
+	EndGlobalSection
+EndGlobal
