@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\C#\\PrepareForLLS\\寻找两个正序数组的中位数\\寻找两个正序数组的中位数.csproj",
-      "projectName": "寻找两个正序数组的中位数",
-      "projectPath": "D:\\Code\\C#\\PrepareForLLS\\寻找两个正序数组的中位数\\寻找两个正序数组的中位数.csproj",
+      "projectUniqueName": "D:\\Code\\C#\\PrepareForLLS\\最长回文子串\\最长回文子串.csproj",
+      "projectName": "最长回文子串",
+      "projectPath": "D:\\Code\\C#\\PrepareForLLS\\最长回文子串\\最长回文子串.csproj",
       "packagesPath": "C:\\Users\\KIPKIPS\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\C#\\PrepareForLLS\\寻找两个正序数组的中位数\\obj\\",
+      "outputPath": "D:\\Code\\C#\\PrepareForLLS\\最长回文子串\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
