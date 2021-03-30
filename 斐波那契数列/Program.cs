@@ -4,7 +4,7 @@ using System.Runtime.CompilerServices;
 namespace 斐波那契数列 {
     class Program {
         static void Main(string[] args) {
-            Console.WriteLine(fib(20));
+            Console.WriteLine(fibDP(20));
             Console.Read();
         }
         //自顶向下的动态规划
@@ -28,18 +28,19 @@ namespace 斐波那契数列 {
         }
 
         //自底向上的动态规划算法
-        public int fibDP(int n) {
+        public static int fibDP(int n) {
             if (n == 0) {
                 return 0;
             }
 
-            int[] dp = new int[n + 1];
+            int[] dp = new int[n + 1];//base case
             dp[0] = 0;
             dp[1] = 1;
             for (int i = 2; i <= n; i++) {
-                dp[i] = dp[i - 1] + dp[i - 2];
+                dp[i] = dp[i - 1] + dp[i - 2];//状态转移方程
             }
 
+            return dp[n];
         }
     }
 }

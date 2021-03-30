@@ -11,3 +11,16 @@ D:\Code\C#\PrepareForLLS\斐波那契数列\obj\Debug\netcoreapp3.1\斐波那契
 D:\Code\C#\PrepareForLLS\斐波那契数列\obj\Debug\netcoreapp3.1\斐波那契数列.dll
 D:\Code\C#\PrepareForLLS\斐波那契数列\obj\Debug\netcoreapp3.1\斐波那契数列.pdb
 D:\Code\C#\PrepareForLLS\斐波那契数列\obj\Debug\netcoreapp3.1\斐波那契数列.genruntimeconfig.cache
+D:\Unity_Workstation\PrepareForLLS\斐波那契数列\bin\Debug\netcoreapp3.1\斐波那契数列.exe
+D:\Unity_Workstation\PrepareForLLS\斐波那契数列\bin\Debug\netcoreapp3.1\斐波那契数列.deps.json
+D:\Unity_Workstation\PrepareForLLS\斐波那契数列\bin\Debug\netcoreapp3.1\斐波那契数列.runtimeconfig.json
+D:\Unity_Workstation\PrepareForLLS\斐波那契数列\bin\Debug\netcoreapp3.1\斐波那契数列.runtimeconfig.dev.json
+D:\Unity_Workstation\PrepareForLLS\斐波那契数列\bin\Debug\netcoreapp3.1\斐波那契数列.dll
+D:\Unity_Workstation\PrepareForLLS\斐波那契数列\bin\Debug\netcoreapp3.1\斐波那契数列.pdb
+D:\Unity_Workstation\PrepareForLLS\斐波那契数列\obj\Debug\netcoreapp3.1\斐波那契数列.csprojAssemblyReference.cache
+D:\Unity_Workstation\PrepareForLLS\斐波那契数列\obj\Debug\netcoreapp3.1\斐波那契数列.AssemblyInfoInputs.cache
+D:\Unity_Workstation\PrepareForLLS\斐波那契数列\obj\Debug\netcoreapp3.1\斐波那契数列.AssemblyInfo.cs
+D:\Unity_Workstation\PrepareForLLS\斐波那契数列\obj\Debug\netcoreapp3.1\斐波那契数列.csproj.CoreCompileInputs.cache
+D:\Unity_Workstation\PrepareForLLS\斐波那契数列\obj\Debug\netcoreapp3.1\斐波那契数列.dll
+D:\Unity_Workstation\PrepareForLLS\斐波那契数列\obj\Debug\netcoreapp3.1\斐波那契数列.pdb
+D:\Unity_Workstation\PrepareForLLS\斐波那契数列\obj\Debug\netcoreapp3.1\斐波那契数列.genruntimeconfig.cache
