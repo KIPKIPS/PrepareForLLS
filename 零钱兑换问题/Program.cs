@@ -92,5 +92,9 @@ namespace 零钱兑换问题 {
             memo[amount] = (res == Int32.MaxValue ? -1 : res);
             return memo[amount];
         }
+
+        //自底向上的动态规划
+        //32:52
+
     }
 }
