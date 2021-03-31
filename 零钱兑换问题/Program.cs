@@ -61,11 +61,11 @@ namespace 零钱兑换问题 {
             memo = new int[amount + 1];
             //初始化备忘录
             Array.Fill(memo, -100);
-            return dp(coins, amount);
+            return DP(coins, amount);
         }
 
         //dp过程
-        public static int dp(int[] coins, int amount) {
+        public static int DP(int[] coins, int amount) {
             //第一步先写base case
             if (amount == 0) {
                 return 0;
@@ -82,7 +82,7 @@ namespace 零钱兑换问题 {
             for (int i = 0; i < coins.Length; i++) {
                 int coin = coins[i];
                 //使用dp函数进行子问题求解
-                int subProblem = dp(coins, amount - coin);
+                int subProblem = DP(coins, amount - coin);
                 if (subProblem == -1) {
                     continue;
                 }
@@ -93,8 +93,25 @@ namespace 零钱兑换问题 {
             return memo[amount];
         }
 
-        //自底向上的动态规划
+        //自底向上的动态规划,迭代解法
         //32:52
+        public static int CoinChangeIteration(int[] coins, int amount) {
+            int[] dp = new int[amount + 1];//初始化数组
+            Array.Fill(dp, amount + 1);
+
+            dp[0] = 0;//base case
+            for (int i = 0; i < dp.Length; i++) {
+                for (int j = 0; j < coins.Length; j++) {
+                    int coin = coins[j];
+                    if (i - coin < 0) {
+                        continue;
+                    }
+                    dp[i] = Math.Min(dp[i], dp[i - coin] + 1);
+                }
+            }
+
+            return (dp[amount] == amount + 1) ? -1 : dp[amount];
+        }
 
     }
 }
