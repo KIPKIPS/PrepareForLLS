@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("斐波那契数列")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("零钱兑换问题")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("斐波那契数列")]
-[assembly: System.Reflection.AssemblyTitleAttribute("斐波那契数列")]
+[assembly: System.Reflection.AssemblyProductAttribute("零钱兑换问题")]
+[assembly: System.Reflection.AssemblyTitleAttribute("零钱兑换问题")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // 由 MSBuild WriteCodeFragment 类生成。

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "森林中的兔子/1.0.0": {
+        "runtime": {
+          "森林中的兔子.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "森林中的兔子/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

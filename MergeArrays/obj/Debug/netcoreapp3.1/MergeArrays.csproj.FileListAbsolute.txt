@@ -1,0 +1,13 @@
+D:\Code\C#\PrepareForLLS\MergeArrays\bin\Debug\netcoreapp3.1\MergeArrays.exe
+D:\Code\C#\PrepareForLLS\MergeArrays\bin\Debug\netcoreapp3.1\MergeArrays.deps.json
+D:\Code\C#\PrepareForLLS\MergeArrays\bin\Debug\netcoreapp3.1\MergeArrays.runtimeconfig.json
+D:\Code\C#\PrepareForLLS\MergeArrays\bin\Debug\netcoreapp3.1\MergeArrays.runtimeconfig.dev.json
+D:\Code\C#\PrepareForLLS\MergeArrays\bin\Debug\netcoreapp3.1\MergeArrays.dll
+D:\Code\C#\PrepareForLLS\MergeArrays\bin\Debug\netcoreapp3.1\MergeArrays.pdb
+D:\Code\C#\PrepareForLLS\MergeArrays\obj\Debug\netcoreapp3.1\MergeArrays.csprojAssemblyReference.cache
+D:\Code\C#\PrepareForLLS\MergeArrays\obj\Debug\netcoreapp3.1\MergeArrays.AssemblyInfoInputs.cache
+D:\Code\C#\PrepareForLLS\MergeArrays\obj\Debug\netcoreapp3.1\MergeArrays.AssemblyInfo.cs
+D:\Code\C#\PrepareForLLS\MergeArrays\obj\Debug\netcoreapp3.1\MergeArrays.csproj.CoreCompileInputs.cache
+D:\Code\C#\PrepareForLLS\MergeArrays\obj\Debug\netcoreapp3.1\MergeArrays.dll
+D:\Code\C#\PrepareForLLS\MergeArrays\obj\Debug\netcoreapp3.1\MergeArrays.pdb
+D:\Code\C#\PrepareForLLS\MergeArrays\obj\Debug\netcoreapp3.1\MergeArrays.genruntimeconfig.cache

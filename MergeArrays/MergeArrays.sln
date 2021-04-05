@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeArrays", "MergeArrays.csproj", "{B10F533C-1DA8-4FE8-B2FC-7988F7C29BB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B10F533C-1DA8-4FE8-B2FC-7988F7C29BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B10F533C-1DA8-4FE8-B2FC-7988F7C29BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B10F533C-1DA8-4FE8-B2FC-7988F7C29BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B10F533C-1DA8-4FE8-B2FC-7988F7C29BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA1332A9-B1EA-4A3B-9BD3-2DD60B0EA5AB}
+	EndGlobalSection
+EndGlobal
