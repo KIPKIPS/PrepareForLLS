@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "删除有序数组中的重复项/1.0.0": {
+        "runtime": {
+          "删除有序数组中的重复项.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "删除有序数组中的重复项/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
