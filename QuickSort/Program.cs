@@ -4,11 +4,6 @@ namespace QuickSort {
     class Program {
         static void Main(string[] args) {
             int[] array = { 1, 8, 2, 56, 51, 5, 35 };
-            // QuickSort(array);
-            // for (int i = 0; i < array.Length; i++) {
-            //     Console.Write(array[i] + " ");
-            // }
-
             int topK = QuickSelect(array, 2);
             Console.WriteLine(topK);
             Console.ReadLine();
