@@ -1,0 +1,13 @@
+D:\Code\C#\PrepareForLLS\ExportConfig\obj\Debug\netcoreapp3.1\ExportConfig.csprojAssemblyReference.cache
+D:\Code\C#\PrepareForLLS\ExportConfig\obj\Debug\netcoreapp3.1\ExportConfig.AssemblyInfoInputs.cache
+D:\Code\C#\PrepareForLLS\ExportConfig\obj\Debug\netcoreapp3.1\ExportConfig.AssemblyInfo.cs
+D:\Code\C#\PrepareForLLS\ExportConfig\obj\Debug\netcoreapp3.1\ExportConfig.csproj.CoreCompileInputs.cache
+D:\Code\C#\PrepareForLLS\ExportConfig\bin\Debug\netcoreapp3.1\ExportConfig.exe
+D:\Code\C#\PrepareForLLS\ExportConfig\bin\Debug\netcoreapp3.1\ExportConfig.deps.json
+D:\Code\C#\PrepareForLLS\ExportConfig\bin\Debug\netcoreapp3.1\ExportConfig.runtimeconfig.json
+D:\Code\C#\PrepareForLLS\ExportConfig\bin\Debug\netcoreapp3.1\ExportConfig.runtimeconfig.dev.json
+D:\Code\C#\PrepareForLLS\ExportConfig\bin\Debug\netcoreapp3.1\ExportConfig.dll
+D:\Code\C#\PrepareForLLS\ExportConfig\bin\Debug\netcoreapp3.1\ExportConfig.pdb
+D:\Code\C#\PrepareForLLS\ExportConfig\obj\Debug\netcoreapp3.1\ExportConfig.dll
+D:\Code\C#\PrepareForLLS\ExportConfig\obj\Debug\netcoreapp3.1\ExportConfig.pdb
+D:\Code\C#\PrepareForLLS\ExportConfig\obj\Debug\netcoreapp3.1\ExportConfig.genruntimeconfig.cache
