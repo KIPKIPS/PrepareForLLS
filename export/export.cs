@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-
 namespace export {
     class export {
         static int maxLayer = 0;
@@ -17,8 +16,25 @@ namespace export {
                 string root = args[0].Replace('\\', '/');
                 string csvPath = root + "csv";
                 string jsonPath = root + "json";
-                Console.WriteLine("配置表目录:" + csvPath);
-                Console.WriteLine("导出目标目录:" + jsonPath);
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine($"Configuration table directory : {csvPath}");
+                Console.WriteLine($"Export target directory : {jsonPath}\n");
+                //删除导出目录下的所有文件
+                DirectoryInfo jsonDir = new DirectoryInfo(jsonPath);
+                FileSystemInfo[] jsonFiles = jsonDir.GetFileSystemInfos();
+                foreach (FileSystemInfo i in jsonFiles) {
+                    //判断是否文件夹
+                    if (i is DirectoryInfo) {
+                        DirectoryInfo subDir = new DirectoryInfo(i.FullName);
+                        //删除子目录和文件
+                        subDir.Delete(true);
+                    } else {
+                        //删除指定文件
+                        File.Delete(i.FullName);
+                    }
+                }
+                Console.WriteLine("The old configuration table is cleared\n");
+                Console.ForegroundColor = ConsoleColor.White;
                 //获取目录下所有文件
                 DirectoryInfo csvDir = new DirectoryInfo(csvPath);
                 FileSystemInfo[] csvFiles = csvDir.GetFileSystemInfos();
@@ -49,114 +65,134 @@ namespace export {
                             string obj;
                             json += "[";
                             int curLayer = 0;
-                            int commentNum = 0;
+                            //int commentNum = 0;
+                            typeDict.Clear();
                             if (!typeDict.ContainsKey("__metatable")) {
                                 typeDict.Add("__metatable", "true");
                             }
+                            HashSet<int> validKeyIndexs = new HashSet<int>();
                             while ((strLine = formatCsvSR.ReadLine()) != null) {
                                 // Console.WriteLine(strLine);
                                 if (row != ignoreLine && row != 0) {
                                     if (row == 1) {
                                         keys = SplitCSVLineStr(strLine);
+                                        List<string> keyList = new List<string>();
                                         for (int i = 0; i < keys.Length; i++) {
-                                            if (keys[i].StartsWith('_')) {
-                                                commentNum++;
+                                            if (!keys[i].StartsWith('_')) {
+                                                keyList.Add(keys[i]);
+                                                validKeyIndexs.Add(i);
                                             }
                                         }
+                                        keys = keyList.ToArray();
+                                        //Console.WriteLine(keys.Length);
                                     }
                                     if (row == 2) {
                                         types = SplitCSVLineStr(strLine);
+                                        List<string> typeList = new List<string>();
+                                        for (int i = 0; i < types.Length; i++) {
+                                            if (validKeyIndexs.Contains(i)) {
+                                                typeList.Add(types[i]);
+                                            }
+                                        }
+                                        types = typeList.ToArray();
+                                        //Console.WriteLine(types.Length);
                                     }
                                     obj = string.Empty;
                                     if (row >= 4) {
                                         values = SplitCSVLineStr(strLine);
+                                        List<string> valueList = new List<string>();
+                                        for (int i = 0; i < values.Length; i++) {
+                                            if (validKeyIndexs.Contains(i)) {
+                                                valueList.Add(values[i]);
+                                            }
+                                        }
+                                        values = valueList.ToArray();
+                                        //Console.WriteLine(values.Length);
                                         curLayer = 1;
                                         obj = splicerN + GetTableAndRecord(curLayer) + "{" + splicerN;
                                         for (int i = 0; i < values.Length; i++) {
-                                            if (!keys[i].StartsWith('_')) {
-                                                curLayer = 2;
-                                                obj += GetTableAndRecord(curLayer);
-                                                string value = string.Empty;
-                                                switch (types[i]) {
-                                                    case "int":
-                                                        value = values[i];
-                                                        break;
-                                                    case "float":
-                                                        value = values[i];
-                                                        break;
-                                                    case "bool":
-                                                        value = values[i].ToLower();
-                                                        break;
-                                                    case "string":
-                                                        value = "\"" + values[i] + "\"";
-                                                        break;
-                                                    case "list<int>":
-                                                        value = GetNormalList(values[i], '|');
-                                                        break;
-                                                    case "list<float>":
-                                                        value = GetNormalList(values[i], '|');
-                                                        break;
-                                                    case "list<bool>":
-                                                        value = GetNormalList(values[i], '|');
-                                                        break;
-                                                    case "list<string>":
-                                                        value = GetStringList(values[i], '|');
-                                                        break;
-                                                    case "list<list<int>>":
-                                                        value = GetNormalNestList(values[i], curLayer);
-                                                        break;
-                                                    case "list<list<float>>":
-                                                        value = GetNormalNestList(values[i], curLayer);
-                                                        break;
-                                                    case "list<list<bool>>":
-                                                        value = GetNormalNestList(values[i], curLayer);
-                                                        break;
-                                                    case "list<list<string>>":
-                                                        value = GetStringNestList(values[i], curLayer);
-                                                        break;
-                                                    case "dict<int,int>":
-                                                        value = GetDict(values[i], curLayer);
-                                                        break;
-                                                    case "dict<int,float>":
-                                                        value = GetDict(values[i], curLayer);
-                                                        break;
-                                                    case "dict<int,bool>":
-                                                        value = GetDict(values[i], curLayer);
-                                                        break;
-                                                    case "dict<int,string>":
-                                                        value = GetDict(values[i], curLayer, true);
-                                                        break;
-                                                    case "dict<float,int>":
-                                                        value = GetDict(values[i], curLayer);
-                                                        break;
-                                                    case "dict<float,float>":
-                                                        value = GetDict(values[i], curLayer);
-                                                        break;
-                                                    case "dict<float,bool>":
-                                                        value = GetDict(values[i], curLayer);
-                                                        break;
-                                                    case "dict<float,string>":
-                                                        value = GetDict(values[i], curLayer, true);
-                                                        break;
-                                                    case "dict<string,int>":
-                                                        value = GetDict(values[i], curLayer);
-                                                        break;
-                                                    case "dict<string,float>":
-                                                        value = GetDict(values[i], curLayer);
-                                                        break;
-                                                    case "dict<string,bool>":
-                                                        value = GetDict(values[i], curLayer);
-                                                        break;
-                                                    case "dict<string,string>":
-                                                        value = GetDict(values[i], curLayer, true);
-                                                        break;
-                                                }
-                                                obj += string.Format("\"{0}\":{1}", keys[i], value);
-                                                obj += (i == values.Length - 1 - commentNum) ? splicerN : ("," + splicerN);
-                                                if (!typeDict.ContainsKey(keys[i])) {
-                                                    // Console.WriteLine(keys[i] + "_" + types[i]);
-                                                    typeDict.Add(keys[i], types[i]);
-                                                }
+                                            // Console.WriteLine(values[i]);
+                                            curLayer = 2;
+                                            obj += GetTableAndRecord(curLayer);
+                                            string value = string.Empty;
+                                            switch (types[i]) {
+                                                case "int":
+                                                    value = values[i];
+                                                    break;
+                                                case "float":
+                                                    value = values[i];
+                                                    break;
+                                                case "bool":
+                                                    value = values[i].ToLower();
+                                                    break;
+                                                case "string":
+                                                    value = $"\"{values[i]}\"";
+                                                    break;
+                                                case "list<int>":
+                                                    value = GetNormalList(values[i], '|');
+                                                    break;
+                                                case "list<float>":
+                                                    value = GetNormalList(values[i], '|');
+                                                    break;
+                                                case "list<bool>":
+                                                    value = GetNormalList(values[i], '|');
+                                                    break;
+                                                case "list<string>":
+                                                    value = GetStringList(values[i], '|');
+                                                    break;
+                                                case "list<list<int>>":
+                                                    value = GetNormalNestList(values[i], curLayer);
+                                                    break;
+                                                case "list<list<float>>":
+                                                    value = GetNormalNestList(values[i], curLayer);
+                                                    break;
+                                                case "list<list<bool>>":
+                                                    value = GetNormalNestList(values[i], curLayer);
+                                                    break;
+                                                case "list<list<string>>":
+                                                    value = GetStringNestList(values[i], curLayer);
+                                                    break;
+                                                case "dict<int,int>":
+                                                    value = GetDict(values[i], curLayer);
+                                                    break;
+                                                case "dict<int,float>":
+                                                    value = GetDict(values[i], curLayer);
+                                                    break;
+                                                case "dict<int,bool>":
+                                                    value = GetDict(values[i], curLayer);
+                                                    break;
+                                                case "dict<int,string>":
+                                                    value = GetDict(values[i], curLayer, true);
+                                                    break;
+                                                case "dict<float,int>":
+                                                    value = GetDict(values[i], curLayer);
+                                                    break;
+                                                case "dict<float,float>":
+                                                    value = GetDict(values[i], curLayer);
+                                                    break;
+                                                case "dict<float,bool>":
+                                                    value = GetDict(values[i], curLayer);
+                                                    break;
+                                                case "dict<float,string>":
+                                                    value = GetDict(values[i], curLayer, true);
+                                                    break;
+                                                case "dict<string,int>":
+                                                    value = GetDict(values[i], curLayer);
+                                                    break;
+                                                case "dict<string,float>":
+                                                    value = GetDict(values[i], curLayer);
+                                                    break;
+                                                case "dict<string,bool>":
+                                                    value = GetDict(values[i], curLayer);
+                                                    break;
+                                                case "dict<string,string>":
+                                                    value = GetDict(values[i], curLayer, true);
+                                                    break;
+                                            }
+                                            obj += $"\"{keys[i]}\":{value}";
+                                            obj += (i == values.Length - 1) ? splicerN : ("," + splicerN);
+                                            if (!typeDict.ContainsKey(keys[i])) {
+                                                typeDict.Add(keys[i], types[i]);
                                             }
                                         }
                                         curLayer = 1;
@@ -178,7 +214,7 @@ namespace export {
                             foreach (KeyValuePair<string, string> kvp in typeDict) {
                                 idx++;
                                 suffix = idx == typeDict.Count ? "" : ",";
-                                typeStr += splicerN + dt + "\"" + kvp.Key + "\":" + "\"" + kvp.Value + "\"" + suffix;
+                                typeStr += $"{splicerN}{dt}\"{kvp.Key}\":\"{kvp.Value}\"{suffix}";
                             }
                             json += typeStr + splicerN + splicerT + "}" + splicerN + "]";
                             for (int i = 0; i <= maxLayer; i++) {
@@ -188,7 +224,7 @@ namespace export {
                             formatCsvSR.Close();
                             string exportFile = fileInfo.FullName.Replace("csv", "json");
                             if (!File.Exists(exportFile)) {
-                                Console.WriteLine("创建文件" + exportFile);
+                                Console.WriteLine($"Create file : {exportFile}");
                                 FileStream createFS = File.Create(exportFile);
                                 createFS.Close();
                             }
@@ -199,12 +235,15 @@ namespace export {
                                     jsonFS.Write(info, 0, info.Length);
                                     jsonFS.Close();
                                 }
-                                Console.WriteLine(exportFile + "导出完成");
+                                Console.WriteLine($"Export finished : {exportFile}");
                             } catch (Exception ex) {
+                                Console.ForegroundColor = ConsoleColor.Red;
                                 Console.WriteLine(ex.ToString());
                             }
+                            typeDict.Clear();
                             //Console.WriteLine(json);
                         } catch (Exception ex) {
+                            Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine(ex.ToString());
                         }
 
@@ -212,13 +251,31 @@ namespace export {
                 }
                 // Console.WriteLine(jsonPath);
                 // Console.WriteLine(root);
+                Console.ForegroundColor = ConsoleColor.Green;
                 string targetPath = root.Replace("/Config", "");
+                Console.WriteLine($"\nThe target export directory is {targetPath}Client/Config\n");
+                DirectoryInfo targetDir = new DirectoryInfo(targetPath + "Client/Config");
+                FileSystemInfo[] targetFiles = targetDir.GetFileSystemInfos();
+                foreach (FileSystemInfo i in targetFiles) {
+                    //判断是否文件夹
+                    if (i is DirectoryInfo) {
+                        DirectoryInfo subdir = new DirectoryInfo(i.FullName);
+                        //删除子目录和文件
+                        subdir.Delete(true);
+                    } else {
+                        //删除指定文件
+                        File.Delete(i.FullName);
+                    }
+                }
+                Console.WriteLine("\nThe export directory is cleared\n");
                 // Console.WriteLine(targetPath);
+                Console.ForegroundColor = ConsoleColor.White;
                 ListFiles(new DirectoryInfo(jsonPath), targetPath + "Client/Config", "json");
-                Console.WriteLine("Copy finished");
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("Copy finished\n");
             }
-
-            Console.WriteLine("任意输入关闭控制台...");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Any input to close the console...");
             Console.ReadKey();
             Environment.Exit(0);
         }
@@ -255,10 +312,6 @@ namespace export {
             if (temp != string.Empty) {
                 strList.Add(temp);
             }
-
-            // for (int i = 0; i < strList.Count; i++) {
-            //     Console.WriteLine(strList[i]);
-            // }
             return strList.ToArray();
         }
 
@@ -283,7 +336,7 @@ namespace export {
                     //Console.WriteLine(file.Extension);
                     //if (file.Extension == "."+ fileType) {
                     if (file.Extension == "." + fileType) {
-                        Console.WriteLine(file.FullName);
+                        Console.WriteLine("Copied : " + file.FullName);
                         string desPath = tarDir + "/" + file.Name;
                         file.CopyTo(desPath, true);//允许覆盖文件
                     }
